@@ -1,0 +1,28 @@
+.filter{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem 0;
+
+}
+
+.btn-filter{
+    
+    border: none;
+
+    padding: 0.7rem;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    border-radius: 5px ;
+    outline:  3px solid rgb(126, 227, 255);
+     cursor: pointer;
+     transition: all 0.5s;
+}
+.btn-filter:hover{
+    transform: scale(1.2);
+    
+}
+
+
+

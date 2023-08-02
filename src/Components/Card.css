@@ -1,0 +1,40 @@
+.image-con img{
+    width: 100%;
+    border-radius:5px ;
+}
+
+.container{
+
+    width: 350px;
+    border-radius:5px;
+    background-color: black;
+    position: relative;
+
+    
+}
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0.7rem;
+}
+.title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.like{
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+    display: grid;
+    place-items: center;
+    
+}
+.like-btn{
+    border-radius:50%;
+    border: none;
+    padding: 0.4rem;
+    cursor: pointer;
+
+}
