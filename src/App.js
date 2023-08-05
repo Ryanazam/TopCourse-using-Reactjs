@@ -5,7 +5,7 @@ import Cards from './Components/Cards'
 import './App.css';
 import { apiUrl,filterData } from './data';
 import { useEffect, useState } from 'react';
-import { toast, useToastContainer } from 'react-toastify';
+import { toast} from 'react-toastify';
 
 
 
