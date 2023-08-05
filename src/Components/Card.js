@@ -39,7 +39,7 @@ const Card = (props) => {
   return (
     <div className='container'>
         <div className='image-con'>
-            <img src={course.image.url} alt='image'></img>
+            <img src={course.image.url} alt='pici'></img>
         </div>
 
         <div className='like'>
