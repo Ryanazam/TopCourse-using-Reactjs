@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 
 const Card = (props) => {
 
-    let course = props.course;
+    let course = props.course; 
     let LikedCourses =props.LikedCourses;
     let setLikedCourses =props.setLikedCourses;
    
